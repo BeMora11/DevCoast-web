@@ -8,20 +8,18 @@ export default function About() {
           <h1 className=" mb-8 text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
             <span className="block xl:inline">En DevCoast</span>{' '}
             <span className="block text-indigo-600 xl:inline">
-              Formalizamos tu idea
+              Formalizamos tu idea.
             </span>
           </h1>
-          <p className="mb-8 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat aliqua.
+          <p className="mb-8 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl font-extrabold sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+            ¿Deseas llevar a tu empresa al siguiente paso?
           </p>
           <div className="rounded-md shadow">
             <a
               href="#"
               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
             >
-              Get started
+              Contactanos
             </a>
           </div>
         </div>

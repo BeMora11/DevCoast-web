@@ -32,12 +32,12 @@ function Nav() {
                     About
                   </Link>
 
-                  <a
-                    href="#"
+                  <Link
+                    to="/About"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Projects
-                  </a>
+                    Proyectos
+                  </Link>
                 </div>
               </div>
             </div>
@@ -100,40 +100,26 @@ function Nav() {
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a
-                  href="#"
+                <Link
+                  to="/"
                   className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Dashboard
-                </a>
+                  Home
+                </Link>
 
-                <a
-                  href="#"
+                <Link
+                  to="/About"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Team
-                </a>
+                  About
+                </Link>
 
-                <a
-                  href="#"
+                <Link
+                  to="/"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Projects
-                </a>
-
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Calendar
-                </a>
-
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Reports
-                </a>
+                  Proyectos
+                </Link>
               </div>
             </div>
           )}
