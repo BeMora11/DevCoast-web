@@ -1,11 +1,10 @@
 import React from 'react'
-import HeroSection from '../../components/HeroSection/HeroSection.jsx'
 import Footer from '../../components/footer/footer.jsx'
-
+import HeroHome from '../../components/HeroSection/Hero_home.jsx'
 const Home = () => {
   return (
     <div>
-      <HeroSection />
+      <HeroHome />
       <Footer />
     </div>
   )
